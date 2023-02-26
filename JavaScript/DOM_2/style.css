@@ -1,0 +1,15 @@
+.heading{
+    text-transform: uppercase;
+    border: 2px black solid;
+}
+.Head{
+font-size: xx-large;
+letter-spacing: 5px;
+}
+.animals{
+    background-color: burlywood;
+    border: 1px black solid;
+}
+.hide{
+    display: none;
+}
