@@ -1,0 +1,22 @@
+AJAX stand for Sysncronious Javasrcipt anf XML.
+-> It is not a Library, not a framework, not a package,not a WebAPI.
+-> AJAX is the Web technique or a grenal concept which uses HTML & DOM Manipulation.
+-> It hellp us to send the request without Disturbing current webpage.
+-> It do not refresh the page it help to make our Site DYNAMIC.
+-> It consist of JS layer which help to send the request and response is return as the form of simple data,
+    that data is used using DOM Manipulation.
+-> Mostly data is used to store in the form of JSON format.
+JSON: Javasrcipt OBject Notation
+-> It is the representation format of data coming from server.
+-> It is light weighted data interchange format.
+-> Here key is stored in the form of String Always.
+-> Values can be Object, Array, String, Numbers, True, False, NULL;
+
+Example: 
+
+{
+    "Name":"Ritesh Verma"
+    "Age" :21
+    "FavColor":"Blue"
+    "FavSports":["Football","Circket" ,"Hockey"]
+}
