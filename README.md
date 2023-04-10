@@ -1,4 +1,4 @@
 # BackEnd_Series_CB
 
--> #JavaScript
--> #NodeJS
+-> JavaScript
+-> NodeJS
