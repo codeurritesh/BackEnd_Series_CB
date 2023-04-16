@@ -1,0 +1,12 @@
+Importing the npm package for joke:-
+    -> npm install give-me-a-joke
+    -> It Automatically create folder of npm modules;
+    -> giveMeAJoke.getRandomCNJoke (function(joke) {
+           console.log(joke);
+        });
+    -> It is the function for the random jokes.
+    -> Currently this npm is not working.
+
+Importing the npm for the colors:-
+    -> npm i colors.
+    -> used to provide colors to the text on terminal.
