@@ -1,0 +1,56 @@
+/*
+NodeJS:-
+In 2009 Browser have layout engine and Javascript engine .In chrome Layout engine is blink and js engine is V8 
+It is the run time enviroment.
+-> As server consist of database and client is sending request to server for some specific data, server return
+    data in the form of JSON from the Database as as response.
+-> Server is just a program who is capable to analys the request made by client, which make is Searchble.
+-> Spider Monkey is the first javascrpit engine used in firefox.
+-> V8 is the JS engine of the chrome,to extract the Sourse Code of JS engine and run it we need NODEJS.
+-> NodeJS is nothing it is Javascript runtime Enviroment.
+-> NodeJS is just used to execute the JS code outside the browser.
+-> NodeJS is just based on V8 js engine.
+ 
+What is the need of NodeJS ?
+-We can write WebServer, Command Line tools.
+-Many modules are present that help to Create Native Application.
+-It help to Javascript as Backend.
+-Creating Drone Softwares
+
+MEAN: MongoDB Express Angular NodeJS
+MERN: MongoDb Express React NodeJS
+
+JS in Browser: 
+- Dont have Access to file System.
+- Window Object Present.
+- Document API Present(DOM).
+
+JS in NodeJS:
+- Access , Work with the file System.
+- Global obejct named global.
+- Do not have DOM API.
+
+==================================================================================================================
+
+# NodeJS contain same variables , functions , methods,  Objects, Arrays as Same used in JavaScript
+# No Window Function.
+# No DOM Manipulation
+# Process Object is present in NodeJS which is not present in JS , Precess Object contains all the 
+    information about the real time process.
+# Process.argv- contain two path as array ,where the first path contain path of node and second path shows the path of current file.
+# By runnig  JS file Like: "node index.js Ritesh Verma" to ritesh and verma is added to the Process.argv which is accessable and work as input.
+# Process.cwd- Current Working Directory which give the path of the folder from where we are running the js file.
+
+==================================================================================================================
+
+-> JS and NodeJS have same Functionality outside but differeent imprelemtation inside.
+-> There are many packages in the nodeJS like filesystem,path,https server,OS.
+-> Every language have there central package manager here simpally package is the software, library or frameWork.
+-> Central package manager in nodejs is the Node pakage Manager(npm) for JS.
+-> Using npm we can use the code written bu someone else.
+-> Npm is nothing it is the repository of the packages, it is allso the command line tool.
+-> Npm is the world largest software registary.
+ 
+===================================================================================================================
+
+
