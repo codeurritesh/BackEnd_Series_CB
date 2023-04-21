@@ -1,0 +1,4 @@
+-> All the Sub file that is for certain work then that all file will kept into a folder and that files have one 
+   parent file index.js in same folder and that file is going to access by the app.js file which is located outside
+   the parent folder.
+->App.js file directly require the folder aminals and automatically parent file or all files is called to access.
