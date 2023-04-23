@@ -1,0 +1,11 @@
+Routing:
+-> For different incomming request you will get the different response.
+-> There are many types of request like Get,Post,patch,delete,put,head etc.
+-> Browser default send the get request.
+-> To analysis the request we just need the type of request anf the path of that request.
+Nodemon:- 'npm i nodemon'
+-> It is used to  restart the server automatically without running it agian.
+-> It display all the changes happen in the server file.
+-> If there is any change in the package.json file then we have to restart the server.
+-> "start": "nodemon ./index.js" to package.js file.
+-> Then we can run file by using the npm start.
