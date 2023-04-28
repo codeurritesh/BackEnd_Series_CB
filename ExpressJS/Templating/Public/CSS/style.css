@@ -1,0 +1,13 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+p{
+    /* width: 60rem; */
+    text-align: justify;
+    
+}
