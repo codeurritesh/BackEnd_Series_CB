@@ -1,0 +1,12 @@
+<%- include('./partials/Nav') %>
+    <% const ran=Math.floor(Math.random()*100) %>
+    <h1>Random Number is: <%= ran %> </h1>
+    <% if(ran%2==0){ %>
+        <h1>Even Number</h1>
+    <% }else { %>
+<h1>Odd Number</h1>
+    <% } %>
+    <!-- //generating the random between 0 to 99 -->
+<!-- <%= %> these ejs tags are used to print the output or tu create fill in the blanks -->
+<!-- //<% %> these ejs tags are used to run javascrip code in ejs fie without output. -->
+<%- include('./partials/footer') %>
