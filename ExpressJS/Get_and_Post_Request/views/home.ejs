@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Get and Post request</h1>
+    <h1>Get Request</h1>
+    <form action="/Submitted">
+        <label for="UserName">Username</label>
+        <input type="text" name="UserName">
+        <label for="age">Age</label>
+        <input type="numeber" name="age">
+        <button type="submit">Submit</button>
+    </form>
+    <br><br>
+    <h1>Post Request</h1>
+    <form action="/Submitted" method="post">
+        <!-- by using method post we can change the default get to post -->
+        <label for="UserName">Username</label>
+        <input type="text" name="UserName">
+        <label for="age">Age</label>
+        <input type="numeber" name="age">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
