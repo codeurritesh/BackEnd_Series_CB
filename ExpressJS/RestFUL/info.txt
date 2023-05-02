@@ -1,0 +1,19 @@
+REST:-
+-> Representation state Transfer.
+-> Software Architechural style which defines that how intrect between client and server.
+-> Restful routes and Rest API.
+RestFul Routes:- at perticular path we are rendering the whole template it is restfull route.
+Rest API:- API are some url from which we make the request where we get the responce.
+
+-To Create new Gist we just use the Post request.
+-To Read the Gist we just use the Get request.
+-To Update the Gist we just use the Put or Patch Request.
+-To Delete the Gist we just use the Delete Request.
+
+RestFul Routes:
+
+# Patch or Delete Request are used with POST Request by Method Overridding.
+# First we have  to install "npm install method-override".
+# By using the ?_method=DELETE in the URL we can change the post request to the DELETE request.
+# Delete Request and Patch Request wrok same as the Statements.
+    
