@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    border: 1px white solid;
+    padding: 10px;
+    /* box-sizing: content-box; */
+    width: 200px;
+    box-shadow: 2px 2px 5px 2px white;
+    margin-bottom: 20px;
+}
+button{
+    width: 200px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+background-color: rgba(128, 128, 128, 0.575);
+border-radius: 11px;
+cursor: pointer;
+}
+button:hover{
+    background-color: white;
+}
