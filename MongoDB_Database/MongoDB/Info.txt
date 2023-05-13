@@ -1,0 +1,114 @@
+DATABASE: 
+
+-> Data: The all data present inside datebase is called data.
+-> Information: User useful data present inside the database in called Information.
+
+There are two type of Storage Management: 
+
+        -> File System:
+                    - File System is not used as storage for projects.
+                    - We used Database for te projects.
+                    - File system has problem of Data redundency(Mother problem) , Data Inconsistancy.
+                    - While changing data in one File data will not change in other file.
+                    - Less Security
+                    - Note easy to handle large amount of data.
+
+        -> DataBase:
+                    - Data base is used for projects.
+                    - While change in one file data is automatically change in other file.
+                    - It is very easy to manage the large files.
+                    - It can not easily hacked the database.
+                    - High Security.
+                    - Layers of Abstraction.
+
+    DATABASE:
+
+                -> SQL: - Stands for Standard Query Language.
+                        - EX: MySql, Oracle, MS Sql Server, Regid Structure.    
+
+                -> NoSQL: 
+                        - Stands for Not Only Sql
+                        - EX: MongoDB, Redis, Cassandra, Document DB(AWS), Flexible Structure.
+    
+    DBMS: - DBMS Stand for Database Management System, It is the software which help us to intract with SQL.
+          - There are two types of database:
+                    ->RDBMS: Relational atabase management System used to store data in Tables.
+                    ->NRDBMS: Non Relational DataBase Management System Data is not Stored in Tables.
+
+    What to Choose for projects SQL or NoSql?
+
+    CAP Theorem: Consistency Avilability PArtation Tolerance
+    - SQL offes more Consistancy.
+    - Nosql offers more Abalability.
+    - SQL & Nosql both offer same Partition tolerance change in data reflect to ther side.
+
+==================================================MONGODB==========================================================
+
+    -> It is the type of NoSql Database which store data in the form of JSON.
+            EX: 
+            {
+                {
+                    "id":1,
+                    "Name":"RItesh Verma",
+                    "City":"Mathura"
+                },
+                {
+                    "id":2,
+                    "Name":"Tanya Bansal",
+                    "City":"Delhi"
+                }
+            }
+    
+    -> MongoDB is good to use with node and express.
+    -> MEAN, MERN, MEVN in this all M stands for MongoDB.
+    -> Easy to Pickup this.
+    -> Syntaxs are just similar to the JavaScript.
+    -> To used this we have to install mongodb community edition and mongodb shell and Mongodb Compass.
+
+=======================================BASICS================================================================
+
+                                        Database
+                                        /   |   \
+                                       /    |    \
+                                Coll-1   Coll-2  Coll-3     (Collections)
+                                /           |          \
+                               /            |           \
+                            documents    Documents     Documents  
+
+Collection: It is the folder inside Database.
+Document: It is the single record present in collection.
+
+JSON vs BSON
+JSON: Javascript objejct notation
+BSON: Binary JSON
+ -> JSON istext based format and text processing is very slow.
+ -> JSON is Readble format.
+ -> JSON is not Space Efficient.
+ ->JSON have limited number of datatypes.
+ # JSON file is converted into BSON to store because BSON takes less storage and again converted into JSON to further operations.
+
+=======================================Commands for Mongosh===================================================
+
+    >show databases- It is used to show all databases
+    >use animal- It is used to create or use animal database.
+    >db.dropDatabase()- It is used to delete the current working Database.
+    >db - It tell about the current working database.
+    >show collection - It is used to show all the collection in current working database.
+    >db.<COLLECTIONNAME>.find() - It is use to display all the document inside collection.
+    >db.<COLLECTIONNAME>.find({name:"Ritesh Verma"}) - It is used to Apply Filter.
+    >db.<COLLECTIONNAME>.insertOne({ Name:"RItesh Verma", City:"Mathura"}) - It is used to create one document inside collection.
+    >db.<COLLECTIONNAME>.updateOne({Nsme:"Ritesh Verma"},{$set:{city:"Agra"}}) - It is used to update one document.
+    >db.<COLLECTIONNAME>.updatMany({Visietd:Ture},{$set:{City:"Unknown"}})- it is used to update all the document inside collection
+    >db.<COLLECTIONNAME>.deleteOne({name:"Ritesh Verma}) - It delete the one document with filter
+    >db.<COLLECTIONNAME>.deleteMany({visited:True}) - It delete all documents with required filter
+    >db.<COLLECTIONNAME>.find({$or:[{City:"Mathura"},{City:"Agra"},{City:"Delhi"}]}) -Applying OR logical operation
+    >db.<COLLECTIONNAME>.find({$and:[{City:"Mathura"},{name:"Ritesh Verma"}]}) -Applying AND Logical operation/
+    >$eq-Equalto
+    >$gt-Greaterthen
+    >$lt-Less then
+    >$lte- Less then Equalto
+    >$gte-Greater then Equalto
+    >$in-Matches value in array
+    >$and-Both condition should True
+    >$or-Any condition need to be True
+
