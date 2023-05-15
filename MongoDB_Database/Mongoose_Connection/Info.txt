@@ -1,0 +1,15 @@
+=================================================MONGOOSE=================================================================
+
+-> We are communicating to MongoDB with the help of shell but we can not use shell with express.
+-> To use Shell with Express we can use Drivers but it is very difficult to use it thats why we are using MONGOOSE.
+-> MONGOOSE is the ODM used for communicate the Express with MongoDB.
+-> ODM means Object Data mapper or Object Document Mapper.
+->npm i mongoose
+->const mongoose=require("mongoose");
+->mongoose.connect('mongodb://localhost:27017/<ApplicatioNAme")//it return the call back function
+    .then({
+        console.log('Database Connected');
+    }).catch({
+        console.log("Error");
+    })
+->To comment mongoose with MONGODB we need one model which is notheing just Javascript class.
