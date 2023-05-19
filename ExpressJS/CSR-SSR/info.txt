@@ -1,0 +1,17 @@
+CSR: CSR stands for the client Side Rendering.
+SSR: SSR stands for the server side rendering.
+
+-> In Client side rendering we are making the AJAX request to the server
+    and through the JS layer we ger the response from the server
+    and using the dom manipulation we are print thr data on the HTML page.
+        - Here we are using the normal HTML and javascript file to sedn the request.
+        - CSR is less Secure because javascript file data is openly available to edit.
+        
+-> In Server Side rendering we are not creating the AJAX request we are just
+     creating the normal request using the ejs files.
+     - Here we are using the ejs or RESTFUL routing.
+     - SSR is more Secure because javascript file is not openly available to edit .
+    
+# req.xhr is the object key which return that the request made is AJAX request or normal request.
+    -> If req.xhr return TRUE it means that it is the AJAX request.
+    -> IF req.xhr return FALSE it means that it is the normal ejs request or Server side request.
