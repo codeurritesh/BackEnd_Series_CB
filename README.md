@@ -1,6 +1,6 @@
 # Backend Series
 
-Welcome to the Backend Series repository! This repository focuses on various technologies used in full-stack web development, including JavaScript, Node.js, Express.js, MongoDB and React.js. 
+Welcome to the Backend Series repository! This repository focuses on various technologies used in full-stack web development, including JavaScript, Node.js, Express.js, MongoDB, and React.js. 
 
 ## Technologies Covered
 
