@@ -2,6 +2,8 @@
 
 Welcome to the Backend Series repository! This repository focuses on various technologies used in full-stack web development, including JavaScript, Node.js, Express.js, MongoDB, and React.js. 
 
+![image](https://github.com/codeurritesh/BackEnd_Series_CB/assets/73749372/e3c1be3f-4b3c-4fb0-b0e1-c250a0f6b532)
+
 ## Technologies Covered
 
 - **JavaScript**: JavaScript is a popular programming language used for both front-end and back-end development. It enables dynamic and interactive web pages, making it essential for building modern web applications.
